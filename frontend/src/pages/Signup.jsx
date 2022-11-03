@@ -31,8 +31,8 @@ const Signup = () => {
     formData.append("name",data.name);
     formData.append("email",data.email);
     formData.append("password",data.password);
-    formData.append("profile",image);
-    console.log(formData.get('name'),formData.get("email"),formData.get("password"),formData.get("profile"));
+    formData.append("avatar",image);
+    console.log(formData.get('name'),formData.get("email"),formData.get("password"),formData.get("avatar"));
 
   };
   return (
